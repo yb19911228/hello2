@@ -35,12 +35,13 @@
             this.btnLeftAll = new System.Windows.Forms.Button();
             this.listRight = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listLeft
             // 
             this.listLeft.FormattingEnabled = true;
-            this.listLeft.ItemHeight = 12;
+            this.listLeft.ItemHeight = 18;
             this.listLeft.Items.AddRange(new object[] {
             "星期一",
             "星期二",
@@ -49,18 +50,16 @@
             "星期五",
             "星期六",
             "星期日"});
-            this.listLeft.Location = new System.Drawing.Point(17, 34);
-            this.listLeft.Margin = new System.Windows.Forms.Padding(2);
+            this.listLeft.Location = new System.Drawing.Point(26, 51);
             this.listLeft.Name = "listLeft";
-            this.listLeft.Size = new System.Drawing.Size(81, 112);
+            this.listLeft.Size = new System.Drawing.Size(120, 166);
             this.listLeft.TabIndex = 0;
             // 
             // btnRight
             // 
-            this.btnRight.Location = new System.Drawing.Point(121, 34);
-            this.btnRight.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRight.Location = new System.Drawing.Point(182, 51);
             this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(50, 15);
+            this.btnRight.Size = new System.Drawing.Size(75, 22);
             this.btnRight.TabIndex = 1;
             this.btnRight.Text = ">";
             this.btnRight.UseVisualStyleBackColor = true;
@@ -68,10 +67,9 @@
             // 
             // btnRightAll
             // 
-            this.btnRightAll.Location = new System.Drawing.Point(121, 65);
-            this.btnRightAll.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRightAll.Location = new System.Drawing.Point(182, 98);
             this.btnRightAll.Name = "btnRightAll";
-            this.btnRightAll.Size = new System.Drawing.Size(50, 15);
+            this.btnRightAll.Size = new System.Drawing.Size(75, 22);
             this.btnRightAll.TabIndex = 2;
             this.btnRightAll.Text = ">>";
             this.btnRightAll.UseVisualStyleBackColor = true;
@@ -79,20 +77,18 @@
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(121, 97);
-            this.btnLeft.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLeft.Location = new System.Drawing.Point(182, 146);
             this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(50, 15);
+            this.btnLeft.Size = new System.Drawing.Size(75, 22);
             this.btnLeft.TabIndex = 3;
             this.btnLeft.Text = "<";
             this.btnLeft.UseVisualStyleBackColor = true;
             // 
             // btnLeftAll
             // 
-            this.btnLeftAll.Location = new System.Drawing.Point(121, 129);
-            this.btnLeftAll.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLeftAll.Location = new System.Drawing.Point(182, 194);
             this.btnLeftAll.Name = "btnLeftAll";
-            this.btnLeftAll.Size = new System.Drawing.Size(50, 15);
+            this.btnLeftAll.Size = new System.Drawing.Size(75, 22);
             this.btnLeftAll.TabIndex = 4;
             this.btnLeftAll.Text = "<<";
             this.btnLeftAll.UseVisualStyleBackColor = true;
@@ -101,27 +97,37 @@
             // listRight
             // 
             this.listRight.FormattingEnabled = true;
-            this.listRight.ItemHeight = 12;
-            this.listRight.Location = new System.Drawing.Point(198, 34);
-            this.listRight.Margin = new System.Windows.Forms.Padding(2);
+            this.listRight.ItemHeight = 18;
+            this.listRight.Location = new System.Drawing.Point(297, 51);
             this.listRight.Name = "listRight";
-            this.listRight.Size = new System.Drawing.Size(81, 112);
+            this.listRight.Size = new System.Drawing.Size(120, 166);
             this.listRight.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(96, 186);
+            this.button1.Location = new System.Drawing.Point(144, 279);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 34);
             this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(310, 289);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 238);
+            this.ClientSize = new System.Drawing.Size(448, 357);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listRight);
             this.Controls.Add(this.btnLeftAll);
@@ -129,7 +135,6 @@
             this.Controls.Add(this.btnRightAll);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.listLeft);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -145,6 +150,7 @@
         private System.Windows.Forms.Button btnLeftAll;
         private System.Windows.Forms.ListBox listRight;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
